@@ -1,0 +1,204 @@
+.navbar_menu {
+  width: 100%;
+  box-shadow: 0 0 5px rgb(211, 205, 205);
+}
+.up {
+  position: fixed;
+  top: 300px;
+  right: 50px;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  background-color: #eee;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.up:hover {
+  color: white;
+}
+.question {
+  position: fixed;
+  display: inline-block;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid red;
+  color: red;
+  width: 30px;
+  text-align: center;
+  height: 43px;
+  font-weight: 700;
+  font-size: 30px;
+  top: 100px;
+  right: 0;
+}
+.question:hover {
+  color: red;
+  text-decoration: none;
+}
+.logo_med {
+  width: 78px;
+}
+.navs_item {
+  padding-top: 20px;
+}
+.navs_item li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+.navs_item li a {
+  color: #2b2a29;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navs_item li a:hover {
+  text-decoration: none;
+  color: #cc2131;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.basket_icon {
+  margin: 0 5px;
+  width: 28px;
+  height: 20px;
+  background-image: url(https://medplaza.uz/templates/neo-adaptiv/images/icons.png);
+  background-repeat: no-repeat;
+  background-position: left left;
+  background-size: cover;
+}
+.authorithation {
+  padding-top: 20px;
+  display: flex;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.language_site {
+  padding: 0 15px;
+}
+.authorithation .language_site a {
+  color: #212121;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.authorithation .sign_up a {
+  color: #212121;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.content_info_about {
+  padding: 50px 0;
+}
+.content_info {
+  box-shadow: 0 0 5px rgb(214, 209, 209);
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(223, 219, 219);
+}
+.content_info:hover {
+  cursor: pointer;
+  background-color: rgba(153, 138, 138, 0.2);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+.title_name {
+  text-indent: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.title_in {
+  font-size: 14px;
+  color: #666;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.servise_online h3 {
+  font-size: 16px;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.servise_online {
+  padding-bottom: 80px;
+  border-bottom: 2px solid rgb(212, 208, 208);
+  margin-bottom: 20px;
+}
+.health_care {
+  padding-bottom: 50px;
+}
+.health_care h2 {
+  padding: 20px 0 10px 20px;
+  font-size: 32px;
+  color: #4a4a4a;
+}
+.health_doctor {
+  box-shadow: 0 3px 10px 5px #eee;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.paragraph {
+  font-size: 16px;
+  color: #666666;
+  text-transform: capitalize;
+}
+.title_paragraph {
+  font-size: 12px;
+  color: #4a4a4a;
+  margin: 10px 0 0 0;
+}
+.footer {
+  width: 100%;
+  background-image: url(https://medplaza.uz/templates/neo-adaptiv/images/bg/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img_footer {
+  max-width: max-content;
+  margin: 0 auto;
+}
+.title_under_logo {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.footer_about li {
+  text-align: left;
+  list-style: none;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+}
+.footer_about li b {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.payme > img,
+.woywo > img {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
